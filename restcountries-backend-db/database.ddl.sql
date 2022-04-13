@@ -1,1 +1,1 @@
-CREATE DATABASE restcountries;
+CREATE DATABASE restcountries_project;
