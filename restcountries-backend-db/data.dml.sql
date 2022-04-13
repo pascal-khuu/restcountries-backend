@@ -1,0 +1,3 @@
+insert into countries (country_name, capital, area, population, flag, map, iso_code, latitude, longitude) VALUES
+("Åland Islands", "Mariehamn", 1580, 29458, "https://flagcdn.com/w320/es.png", "https://www.openstreetmap.org/relation/1650407",  'AX', 60.116667, 19.9),
+('United Kingdom', 'London', 242900, 67215293, "https://flagcdn.com/w320/ba.png", 'https://www.openstreetmap.org/relation/62149',  'GB', 54.0, -2.0); 
