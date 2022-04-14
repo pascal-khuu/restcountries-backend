@@ -35,5 +35,6 @@ INSERT INTO countries (country_name, capital, area, population, flag, map, iso_c
 ('Ukraine','Kyiv',603500.0, 44134693,'https://flagcdn.com/w320/ua.png','https://www.openstreetmap.org/relation/60199', 'UA',49.0,32.0),
 ('Republic of Cyprus','Nicosia',9251.0, 1207361,'https://flagcdn.com/w320/cy.png','https://www.openstreetmap.org/relation/307787','CY',35.0,33.0),
 ('Kingdom of Belgium','Brussels',30528.0, 11555997,'https://flagcdn.com/w320/be.png','openStreetMaps': 'https://www.openstreetmap.org/relation/52411','BE', 50.83333333,4.0),
-('Kingdom of Norway','Oslo',323802.0, 5379475,'https://flagcdn.com/w320/no.png','https://www.openstreetmap.org/relation/2978650','NO', 62.0,10.0);
+('Kingdom of Norway','Oslo',323802.0, 5379475,'https://flagcdn.com/w320/no.png','https://www.openstreetmap.org/relation/2978650','NO', 62.0,10.0)
+('Faroe Islands','Tórshavn',1393.0,48865,'https://flagcdn.com/w320/fo.png','https://www.openstreetmap.org/relation/52939','FO',62.0,-7.0);
 
