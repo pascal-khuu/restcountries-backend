@@ -46,7 +46,7 @@ INSERT INTO countries (country_name, capital, area, population, flag, map, iso_c
 ('Portuguese Republic','Lisbon',92090.0,10305564,'https://flagcdn.com/w320/pt.png','https://www.openstreetmap.org/relation/295480','PT',39.5,-8.0),
 ('Bailiwick of Guernsey','St. Peter Port',78.0,62999,'https://flagcdn.com/w320/gg.png','https://www.openstreetmap.org/relation/270009','GG',49.46666666,-2.58333333),
 ('Republic of San Marino','City of San Marino',61.0,33938,'https://flagcdn.com/w320/sm.png','https://www.openstreetmap.org/relation/54624','SM',43.76666666,12.41666666),
-('Republic of Moldova','Chi�n�',33846.0,2617820,'https://flagcdn.com/w320/md.png','https://www.openstreetmap.org/relation/58974','MD',47.0,29.0),
+('Republic of Moldova','Chisinau',33846.0,2617820,'https://flagcdn.com/w320/md.png','https://www.openstreetmap.org/relation/58974','MD',47.0,29.0),
 ('Republic of Estonia','Tallinn',45227.0,1331057,'https://flagcdn.com/w320/ee.png','https://www.openstreetmap.org/relation/79510','EE',59.0,26.0),
 ('Isle of Man','Douglas',572.0,85032,'https://flagcdn.com/w320/im.png','https://www.openstreetmap.org/relation/62269','IM',54.25,-4.5),
 ('Republic of Croatia','Zagreb',56594.0,4047200,'https://flagcdn.com/w320/hr.png','https://www.openstreetmap.org/relation/214885','HR',45.16666666,15.5),
