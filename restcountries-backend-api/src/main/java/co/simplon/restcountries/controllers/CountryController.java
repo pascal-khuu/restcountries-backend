@@ -1,5 +1,7 @@
 package co.simplon.restcountries.controllers;
 
+import java.util.List;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,7 +21,7 @@ public class CountryController {
     }
 
     @GetMapping
-    public Country getCountryName() {
-	return service.getCountryName();
+    public List<Country> getCountriesName() {
+	return service.getCountriesName();
     }
 }

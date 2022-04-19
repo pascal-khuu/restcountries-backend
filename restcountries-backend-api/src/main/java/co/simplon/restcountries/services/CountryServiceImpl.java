@@ -1,5 +1,7 @@
 package co.simplon.restcountries.services;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import co.simplon.restcountries.entities.Country;
@@ -15,9 +17,9 @@ public class CountryServiceImpl implements CountryService {
     }
 
     @Override
-    public Country getCountryName() {
+    public List<Country> getCountriesName() {
 	// TODO Auto-generated method stub
-	return repository.findbyCountryName();
+	return repository.findAll();
     }
 
 }
