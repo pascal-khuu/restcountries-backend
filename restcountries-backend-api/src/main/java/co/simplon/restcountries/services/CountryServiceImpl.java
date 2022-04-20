@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import co.simplon.restcountries.dtos.CountryCard;
 import co.simplon.restcountries.dtos.CountryName;
 import co.simplon.restcountries.dtos.CountryTable;
 import co.simplon.restcountries.entities.Country;
@@ -31,6 +32,12 @@ public class CountryServiceImpl implements CountryService {
     @Override
     public List<CountryTable> getCountryDatas() {
 	return repository.findAllProjectedBy(CountryTable.class);
+    }
+
+    @Override
+    public List<CountryCard> getCountryCards() {
+	// TODO Auto-generated method stub
+	return repository.findAllProjectedBy(CountryCard.class);
     }
 
 }
