@@ -9,4 +9,5 @@ import co.simplon.restcountries.entities.Country;
 
 public interface CountryRepository extends JpaRepository<Country, Long> {
 
+    <T> List<T> findAllProjectedBy(Class<T> type);
 }

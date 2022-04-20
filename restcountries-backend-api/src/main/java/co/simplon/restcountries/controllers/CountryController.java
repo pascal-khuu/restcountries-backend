@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import co.simplon.restcountries.dtos.CountryName;
 import co.simplon.restcountries.entities.Country;
 import co.simplon.restcountries.services.CountryService;
 
@@ -26,4 +27,8 @@ public class CountryController {
 	return service.getCountries();
     }
 
+    @GetMapping("/country-name")
+    public List<CountryName> getCountryNames() {
+	return service.getCountryNames();
+    }
 }

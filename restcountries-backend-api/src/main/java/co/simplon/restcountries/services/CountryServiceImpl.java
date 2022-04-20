@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import co.simplon.restcountries.dtos.CountryName;
 import co.simplon.restcountries.entities.Country;
 import co.simplon.restcountries.repositories.CountryRepository;
 
@@ -19,6 +20,11 @@ public class CountryServiceImpl implements CountryService {
     @Override
     public List<Country> getCountries() {
 	return repository.findAll();
+    }
+
+    @Override
+    public List<CountryName> getCountryNames() {
+	return repository.findAllProjectedBy(CountryName.class);
     }
 
 }
