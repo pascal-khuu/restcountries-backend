@@ -17,8 +17,7 @@ public class CountryServiceImpl implements CountryService {
     }
 
     @Override
-    public List<Country> getCountriesName() {
-	// TODO Auto-generated method stub
+    public List<Country> getCountries() {
 	return repository.findAll();
     }
 

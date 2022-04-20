@@ -122,6 +122,10 @@ public class Country {
 	this.longitude = longitude;
     }
 
+    public Country() {
+
+    }
+
     public Country(Long id, String countryName, String capital, float area, int population, String flag, String map,
 	    String isoCode, float latitude, float longitude) {
 	super();
