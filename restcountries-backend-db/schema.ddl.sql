@@ -10,3 +10,16 @@ CREATE TABLE countries(
 	latitude DECIMAL NOT NULL,
 	longitude DECIMAL NOT NULL
 );
+
+CREATE TABLE user(
+	id SERIAL PRIMARY KEY,
+	email varchar (200) NOT NULL,
+	password varchar (100) NOT NULL
+	);
+	
+CREATE TABLE role(
+	id SERIAL PRIMARY KEY,
+	name varchar (100) NOT NULL,
+	droit varchar (150) NOT NULL
+	);
+	
