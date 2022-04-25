@@ -52,3 +52,4 @@ INSERT INTO countries (country_name, capital, area, population, flag, map, iso_c
 ('Republic of Croatia','Zagreb',56594.0,4047200,'https://flagcdn.com/w320/hr.png','https://www.openstreetmap.org/relation/214885','HR',45.16666666,15.5),
 ('Iceland','Reykjavik',103000.0,366425,'https://flagcdn.com/w320/is.png','https://www.openstreetmap.org/relation/299133','IS',65.0,-18.0);
 
+INSERT INTO roles (name,droit) values ('Role_ADMIN', 'CRUD'); 
