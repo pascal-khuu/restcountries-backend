@@ -11,13 +11,13 @@ CREATE TABLE countries(
 	longitude DECIMAL NOT NULL
 );
 
-CREATE TABLE user(
+CREATE TABLE users(
 	id SERIAL PRIMARY KEY,
 	email varchar (200) NOT NULL,
 	password varchar (100) NOT NULL
 	);
 	
-CREATE TABLE role(
+CREATE TABLE roles(
 	id SERIAL PRIMARY KEY,
 	name varchar (100) NOT NULL,
 	droit varchar (150) NOT NULL
