@@ -122,6 +122,13 @@ public class Country {
 	this.longitude = longitude;
     }
 
+    @Override
+    public String toString() {
+	return "Country [id=" + id + ", countryName=" + countryName + ", capital=" + capital + ", area=" + area
+		+ ", population=" + population + ", flag=" + flag + ", map=" + map + ", isoCode=" + isoCode
+		+ ", latitude=" + latitude + ", longitude=" + longitude + "]";
+    }
+
     public Country() {
 
     }
