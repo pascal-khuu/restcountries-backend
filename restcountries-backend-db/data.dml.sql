@@ -1,3 +1,4 @@
+
 INSERT INTO countries (country_name, capital, area, population, flag, map, iso_code, latitude, longitude) VALUES
 ('Republic of Belarus','Minsk',207600,9398861,'https://flagcdn.com/w320/by.png','https://www.openstreetmap.org/relation/59065','BY',53.0,28.0),
 ('Slovak Republic','Bratislava',49037,5458827,'https://flagcdn.com/w320/sk.png','https://www.openstreetmap.org/relation/14296','SK', 48.66666666,19.5),
@@ -52,4 +53,4 @@ INSERT INTO countries (country_name, capital, area, population, flag, map, iso_c
 ('Republic of Croatia','Zagreb',56594.0,4047200,'https://flagcdn.com/w320/hr.png','https://www.openstreetmap.org/relation/214885','HR',45.16666666,15.5),
 ('Iceland','Reykjavik',103000.0,366425,'https://flagcdn.com/w320/is.png','https://www.openstreetmap.org/relation/299133','IS',65.0,-18.0);
 
-INSERT INTO roles (name,droit) values ('Role_ADMIN', 'CRUD'); 
+INSERT INTO roles (name) values ('Role_ADMIN'); 

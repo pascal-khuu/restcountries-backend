@@ -11,15 +11,20 @@ CREATE TABLE countries(
 	longitude DECIMAL NOT NULL
 );
 
-CREATE TABLE users(
-	id SERIAL PRIMARY KEY,
-	email varchar (200) NOT NULL,
-	password varchar (100) NOT NULL
-	);
-	
 CREATE TABLE roles(
 	id SERIAL PRIMARY KEY,
-	name varchar (100) NOT NULL,
-	droit varchar (150) NOT NULL
+	name varchar (30) NOT NULL
+	
 	);
+CREATE TABLE users(
+	id SERIAL PRIMARY KEY,
+	username varchar (60) NOT NULL,
+	password varchar (60) NOT NULL,
+	roles_id INTEGER,
+	CONSTRAINT fk_roles_id
+    	FOREIGN KEY (roles_id)
+    	REFERENCES roles(id)
+	);
+	
+
 	
